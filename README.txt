@@ -41,10 +41,13 @@ data is close to the server. I have not done any proper testing, though.
 
 -- Changes to consider
 
-- Defining routes closer to the fastify/express.js style of doing so, giving the 
+* Defining routes closer to the fastify/express.js style of doing so, giving the 
   user access to the req and reply parameters.
-- Attempting to reconnect the WebSocket on close, up to n attempts, to keep apps
+
+* Attempting to reconnect the WebSocket on close, up to n attempts, to keep apps
   working even after a connection reset.
+
+* JSX view templates?
 
 -- Disclaimer
 
